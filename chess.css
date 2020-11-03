@@ -1,0 +1,104 @@
+/*This is the cssstyling  for the first coloumn of the chess board */
+.black{
+	height:80px;
+	width:80px;
+	background-color: black;
+	border:1px solid grey;
+}
+.white{
+	height:80px;
+	width:80px;
+	border:1px solid grey;
+}
+
+/*************************************************************************************************************/
+/*This is the cssstyling  for the second coloumn of the chess board */
+.secndblack{
+	height:80px;
+	width:80px;
+	background-color: black;
+	border:1px solid grey;
+	position:relative;
+	left:80px;
+}
+.secndwhite{
+	height:80px;
+	width:80px;
+	border:1px solid grey;
+	position:relative;
+	left:80px;
+
+}
+#secondline{
+	position:relative;
+	bottom:656px;
+}
+/***********************************************************************************************************************/
+/*This is the cssstyling  for the third coloumn of the chess board */
+.thdblack{
+	height:80px;
+	width:80px;
+	background-color: black;
+	border:1px solid grey;
+	position:relative;
+	left:160px;
+
+}
+.thdwhite{
+	height:80px;
+	width:80px;
+	border:1px solid grey;
+	position:relative;
+	left:160px;
+}
+#thirdline{
+	position:relative;
+	bottom:1312px;
+}
+
+/**************************************************************************************************************************/
+/*This is the cssstyling  for the fourth coloumn of the chess board */
+.foblack{
+	height:80px;
+	width:80px;
+	background-color: black;
+	border:1px solid grey;
+	position:relative;
+	left:240px;
+
+}
+.fowhite{
+	height:80px;
+	width:80px;
+	border:1px solid grey;
+	position:relative;
+	left:240px;
+}
+#fourthline{
+	position:relative;
+	bottom:1968px;
+}
+/************************************Styling the second container*********************************/
+.second-container{
+	position:relative;
+	left:320px;
+	bottom:2624px;
+}
+/***************************Aligning the Images inside the div****************************************/
+img{
+	display: block;
+  	margin: auto;
+  	padding: 15px;
+  	
+}
+/****************************Aligning the chess board to the center********************************/
+.final-wrap{
+	position:absolute;
+	left:350px;
+	background-color:faf3dd;
+}
+/**************************intro styling**************************************/
+.intro{
+	background-color: 8fc0a9;
+	display:inline-block;
+}
